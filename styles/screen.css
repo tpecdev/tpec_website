@@ -48,6 +48,10 @@ hr {
     height: 1px;
 }
 
+hr.vertpad {
+    margin: 1em 0em 1em 0em;
+}
+
 .directions hr {
     margin: 2em 0em 2em 0em;
 }
@@ -312,6 +316,10 @@ p.centercap {
     margin-top: 5px;
 }
 
+p.relaxed {
+    margin-bottom: 0.750em;
+}
+
 ul.indented {
     margin-left: 1em;
 }
@@ -320,12 +328,25 @@ ul.indentedtwice {
     margin-left: 2em;
 }
 
+ul.jobreqs {
+    width: 560px;
+    margin-left: 2.5em;
+    margin-top: 0.813em;
+    margin-bottom: 0.813em;
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+    font-size: 0.813em;
+}
+
+ul.jobreqs > li {
+    margin-bottom: 0.188em;
+}
+
 .paradiv {
     margin-bottom: 1em;
 }
 
 .vertdivider {
-    margin: 0em 0.5em 0em 0.5em; 
+    margin: 0em 0.5em 0em 0.5em;
 }
 
 .smallcenteredlink {
