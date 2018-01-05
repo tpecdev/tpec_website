@@ -280,6 +280,13 @@ span.linkcover {
     font-size: 0.75em;
 }
 
+.captionsansserifnj {
+    margin-top: 0.5em;
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+    text-align: left;
+    font-size: 0.75em;
+}
+
 .specialheadersansserif {
     margin-bottom: 0.5em;
     font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
@@ -378,6 +385,24 @@ div.stormwaterproj > h1 {
 }
 
 div.stormwaterproj > p {
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
+}
+
+div.stormwaternote {
+    margin-bottom: 1.5em;
+}
+
+div.stormwaternote > h1 {
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+    font-size: 1.250em;
+    font-weight: normal;
+    color: #0d2254;
+    margin-bottom: 0.5em;
+    text-align: left;
+}
+
+div.stormwaternote > p {
     margin-top: 0.25em;
     margin-bottom: 0.5em;
 }
